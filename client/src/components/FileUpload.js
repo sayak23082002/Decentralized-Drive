@@ -3,7 +3,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import "./FileUpload.css";
 
-export default function FileUpload({ contract, account, provider }) {
+export default function FileUpload({ contract, account }) {
   const [file, setFile] = useState(null);
   const[fileName, setFileName] = useState("No image selected");
   const handleSubmit = async (e) => {

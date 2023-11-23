@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Revoke.css";
+import "./Rgit branch -M mainevoke.css";
 
 export default function Revoke({setRevvokeOpen, contract}) {
     const revoking = async () => {
